@@ -7,5 +7,39 @@
             "email": "2505458588@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": ">=6.5",
+        "illuminate/support": ">=6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": ">=4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "qiwanggan\\DouDian\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "qiwanggan\\DouDian\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "qiwanggan\\DouDian\\DouDianServiceProvider"
+            ],
+            "aliases": {
+                "DouDian": "qiwanggan\\DouDian\\DouDianFacade"
+            }
+        }
+    }
 }
