@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "qiwanggan\\DouDian\\": "src"
+            "Abbotton\\DouDian\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "qiwanggan\\DouDian\\Tests\\": "tests"
+            "Abbotton\\DouDian\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -35,10 +35,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "qiwanggan\\DouDian\\DouDianServiceProvider"
+                "Abbotton\\DouDian\\DouDianServiceProvider"
             ],
             "aliases": {
-                "DouDian": "qiwanggan\\DouDian\\DouDianFacade"
+                "DouDian": "Abbotton\\DouDian\\DouDianFacade"
             }
         }
     }
