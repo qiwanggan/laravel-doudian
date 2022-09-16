@@ -1,9 +1,10 @@
 {
-    "name": "wyy/laravel-doudian",
+    "name": "qiwanggan/laravel-doudian",
+    "description": "抖音店铺",
     "authors": [
         {
-            "name": "yingyingwang",
-            "email": "yingyingwang@dalongyun.com"
+            "name": "qiwanggan",
+            "email": "2505458588@qq.com"
         }
     ],
     "require": {}
