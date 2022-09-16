@@ -9,7 +9,7 @@
 
 1、通过`composer`安装扩展包。
 ```bash
-composer require abbotton/laravel-doudian
+composer require qiwanggan/laravel-doudian
 ```
 2、发布配置文件。
 ```bash
